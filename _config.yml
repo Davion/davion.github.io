@@ -1,1 +1,4 @@
 theme: jekyll-theme-time-machine
+permalink: /:categories/:year/:month/:title/
+title: My Awesome Site's Title
+description: Description of my website
