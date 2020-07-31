@@ -1,4 +1,4 @@
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-hacker
 permalink: /:categories/:year/:month/:title/
 title: My Awesome Site's Title
 description: Description of my website
