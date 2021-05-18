@@ -10,8 +10,56 @@ body{
     width: 100%;
     height: 100%;
 
+    background-color: #D6D6D6;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "projects . work"
+    ". central-piece ."
+    "about social-media contact"
+    ;
+}
+
+section{
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
+}
+
+.projects{
+    grid-area: projects;
+    justify-content: start;
+    align-items: start;
+}
+
+.work{
+    grid-area: work;
+    justify-content: end;
+    align-items: start;
+}
+
+.central-piece{
+    grid-area: central-piece;
     justify-content: center;
     align-items: center;
+}
+
+.about{
+    grid-area: about;
+    justify-content: start;
+    align-items: end;
+}
+
+.social-media{
+    grid-area: social-media;
+    justify-content: center;
+    align-items: end;
+}
+
+.contact{
+    grid-area: contact;
+    justify-content: end;
+    align-items: end;
 }
