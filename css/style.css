@@ -34,14 +34,14 @@ section{
 
 .projects{
     grid-area: projects;
-    justify-content: start;
-    align-items: start;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .work{
     grid-area: work;
-    justify-content: end;
-    align-items: start;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 
 .central-piece{
@@ -52,18 +52,18 @@ section{
 
 .about{
     grid-area: about;
-    justify-content: start;
-    align-items: end;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .social-media{
     grid-area: social-media;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
 }
 
 .contact{
     grid-area: contact;
-    justify-content: end;
-    align-items: end;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
