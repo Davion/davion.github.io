@@ -60,6 +60,11 @@ section{
     grid-area: social-media;
     justify-content: center;
     align-items: flex-end;
+    gap: 1rem;
+}
+
+.social-media a>i{
+    color:#222;
 }
 
 .contact{
