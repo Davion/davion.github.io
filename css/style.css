@@ -46,6 +46,7 @@ section{
 
 .central-piece{
     grid-area: central-piece;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
