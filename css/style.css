@@ -73,3 +73,15 @@ section{
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+
+.navigation-links{
+    color: #222;
+    text-decoration: none;
+    
+}
+
+
+/* .navigation-links:hover{
+    color: yellow;
+} */
