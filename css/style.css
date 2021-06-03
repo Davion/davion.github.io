@@ -68,6 +68,14 @@ section{
     color:#222;
 }
 
+.fa-linkedin-square:hover{
+    color: #0a66c2;
+}
+
+.fa-github-square:hover{
+    color: #818181;
+}
+
 .contact{
     grid-area: contact;
     justify-content: flex-end;
