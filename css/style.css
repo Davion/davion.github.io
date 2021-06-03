@@ -78,10 +78,10 @@ section{
 .navigation-links{
     color: #222;
     text-decoration: none;
-    
+    padding: 3rem;
 }
 
 
-/* .navigation-links:hover{
-    color: yellow;
-} */
+.navigation-links:hover{
+    text-shadow: 0 0 5px #33ff33;
+}
