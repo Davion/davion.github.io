@@ -89,7 +89,16 @@ section{
     padding: 3rem;
 }
 
-
 .navigation-links:hover{
     text-shadow: 0 0 5px #33ff33;
+}
+
+
+.albania-link{
+    color: #222;
+    text-decoration: none;
+}
+
+.albania-link:hover{
+    text-shadow: 0 0 5px #ff0000;
 }
