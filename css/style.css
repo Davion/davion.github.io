@@ -66,14 +66,17 @@ section{
 
 .social-media a>i{
     color:#222;
+    transition: all 1s ease;
 }
 
 .fa-linkedin-square:hover{
     color: #0a66c2;
+    text-shadow: 0 0 3px #0a66c2;
 }
 
 .fa-github-square:hover{
     color: #818181;
+    text-shadow: 0 0 3px #818181;
 }
 
 .contact{
@@ -87,16 +90,23 @@ section{
     color: #222;
     text-decoration: none;
     padding: 3rem;
+    transition: all 1s ease;
 }
 
 .navigation-links:hover{
-    text-shadow: 0 0 5px #33ff33;
+    text-shadow: 0 0 5px #33ff33,
+        0 0 10px #33ff33,
+        0 0 20px #33ff33,
+        0 0 40px #33ff33,
+        0 0 80px #33ff33,
+        0 0 160px #33ff33;
 }
 
 
 .albania-link{
     color: #222;
     text-decoration: none;
+    transition: all 1s ease;
 }
 
 .albania-link:hover{
