@@ -124,3 +124,58 @@ section{
 .albania-link:hover{
     text-shadow: 0 0 5px #ff0000;
 }
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1200px) {
+    .page-container{
+        
+        grid-template-areas: 
+        "projects . work"
+        "central-piece central-piece central-piece"
+        "about social-media contact"
+        ;
+    }
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width: 660px) {
+    
+
+    .page-container{
+        width: 100%;
+        height: 100%;
+
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 5% 85% 10%;
+        grid-template-areas: 
+        "social-media . . ."
+        "central-piece central-piece central-piece central-piece"
+        "projects work about contact"
+        ;
+    }
+
+    .projects,
+    .work,
+    .about,
+    .contact{
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+
+        background-color: #a1a1a1;
+    }
+
+    .navigation-links{
+        color: #222;
+        text-decoration: none;
+        padding: 0;
+        transition: all 1s ease;
+    }
+
+    .social-media{
+        align-items: center;
+    }
+}
