@@ -20,7 +20,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
-    "projects . work"
+    "projects dark-mode-icon work"
     ". central-piece ."
     "about social-media contact"
     ;
@@ -36,6 +36,20 @@ section{
     grid-area: projects;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+.dark-mode-icon{
+    grid-area: dark-mode-icon;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.dark-mode-icon i{
+    margin-top: 1rem;
+}
+
+.sun-icon-container{
+    display: none;
 }
 
 .work{
@@ -65,6 +79,7 @@ section{
 }
 
 .social-media a>i{
+    margin-bottom: 1rem;
     color:#222;
     transition: all 1s ease;
 }
@@ -132,7 +147,7 @@ section{
     .page-container{
         
         grid-template-areas: 
-        "projects . work"
+        "projects dark-mode-icon work"
         "central-piece central-piece central-piece"
         "about social-media contact"
         ;
@@ -151,7 +166,7 @@ section{
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 5% 85% 10%;
         grid-template-areas: 
-        "social-media . . ."
+        "social-media . . dark-mode-icon"
         "central-piece central-piece central-piece central-piece"
         "projects work about contact"
         ;
@@ -177,5 +192,17 @@ section{
 
     .social-media{
         align-items: center;
+    }
+
+    .social-media a>i{
+        margin-bottom: 0;
+    }
+
+    .dark-mode-icon{
+        align-items: center;
+    }
+
+    .dark-mode-icon i{
+        margin-top: 0;
     }
 }
