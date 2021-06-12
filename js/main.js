@@ -8,4 +8,5 @@ darkModeToggle.addEventListener("click", () => {
     sunIcon.classList.toggle("show");
     moonIcon.classList.toggle("hide");
     moonIcon.classList.toggle("show");
+    document.body.classList.toggle("darkmode");
 });
