@@ -1,12 +1,19 @@
 :root{
-    --clr-dark: #222;
+    --clr-dark: #222222;
     --clr-light: #D6D6D6;
+    
+    --mobile-btn-dark: #444444;
+    --mobile-btn-light: #C6C6C6;
 
     --albania-link: #ff0000;
     --navigation-link-glow: #33ff33;
 
+    
     --foreground: var(--clr-dark);
     --background: var(--clr-light);
+
+    --mobile-btn-foreground: var(--mobile-btn-dark);
+    --mobile-btm-background: var(--mobile-btn-light);
 }
 
 body{
@@ -139,15 +146,6 @@ section{
         0 0 160px var(--navigation-link-glow);
 }
 
-/* .navigation-links--active{
-    text-shadow: 0 0 5px var(--navigation-link-glow),
-        0 0 10px var(--navigation-link-glow),
-        0 0 20px var(--navigation-link-glow),
-        0 0 40px var(--navigation-link-glow),
-        0 0 80px var(--navigation-link-glow),
-        0 0 160px var(--navigation-link-glow);
-} */
-
 .navigation-links--active:hover{
     text-shadow: none;
 }
@@ -166,6 +164,9 @@ section{
 .darkmode{
     --foreground: var(--clr-light);
     --background: var(--clr-dark);
+
+    --mobile-btn-foreground: var(--mobile-btn-light);
+    --mobile-btm-background: var(--mobile-btn-dark);
 }
 
 
@@ -208,11 +209,11 @@ section{
         align-items: center;
         font-size: 1rem;
 
-        background-color: #a1a1a1;
+        background-color: var(--mobile-btm-background);
     }
 
     .navigation-links{
-        color: #222;
+        color: var(--mobile-btn-foreground);
         text-decoration: none;
         padding: 0;
         transition: all 1s ease;
