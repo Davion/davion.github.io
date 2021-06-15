@@ -194,7 +194,7 @@ label:active:after {
 .albania-link{
     color: var(--foreground);
     text-decoration: none;
-    transition: all 1s ease;
+    transition: hover 1s ease;
 }
 
 .albania-link:hover{
@@ -208,6 +208,15 @@ label:active:after {
 
     --mobile-btn-foreground: var(--mobile-btn-light);
     --mobile-btm-background: var(--mobile-btn-dark);
+    
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
 }
 
 
