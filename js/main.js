@@ -1,12 +1,8 @@
-const darkModeToggle = document.querySelector("#dark-mode-icon");
+const darkModeToggle = document.querySelector("#switch");
 const sunIcon = document.querySelector("#sunIcon");
 const moonIcon = document.querySelector("#moonIcon");
 
 
 darkModeToggle.addEventListener("click", () => {
-    sunIcon.classList.toggle("hide");
-    sunIcon.classList.toggle("show");
-    moonIcon.classList.toggle("hide");
-    moonIcon.classList.toggle("show");
     document.body.classList.toggle("darkmode");
 });
