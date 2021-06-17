@@ -150,7 +150,7 @@ label:active:after {
 .social-media a>i{
     margin-bottom: 1rem;
     color: var(--foreground);
-    transition: all 1s ease;
+    transition: text-shadow 1s ease;
 }
 
 .fa-linkedin-square:hover{
@@ -174,7 +174,7 @@ label:active:after {
     color: var(--foreground);
     text-decoration: none;
     padding: 3rem;
-    transition: all 1s ease;
+    transition: text-shadow 1s ease;
 }
 
 .navigation-links:hover,
@@ -194,7 +194,7 @@ label:active:after {
 .albania-link{
     color: var(--foreground);
     text-decoration: none;
-    transition: hover 1s ease;
+    transition: text-shadow 1s ease;
 }
 
 .albania-link:hover{
@@ -266,7 +266,6 @@ html.transition *:after {
         color: var(--mobile-btn-foreground);
         text-decoration: none;
         padding: 0;
-        transition: all 1s ease;
     }
 
     .social-media{
