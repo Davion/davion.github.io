@@ -96,7 +96,6 @@ label:after {
 	height: 1.15rem;
 	background: var(--background);
 	border-radius: 1.15rem;
-	transition: 0.3s;
 }
 
 input:checked + label:after {
@@ -104,9 +103,6 @@ input:checked + label:after {
 	transform: translateX(-100%);
 }
 
-label:active:after {
-	width: 1.75rem;
-}
 /* ------------ */
 
 .dark-mode-icon{
