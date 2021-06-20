@@ -211,10 +211,19 @@ html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
+    -webkit-transition: all 750ms !important;
+    -moz-transition: all 750ms !important;
+    -ms-transition: all 750ms !important;
+    -o-transition: all 750ms !important;
+    transition: all 750ms !important;
+    transition-delay: 0 !important;
 }
 
+.testing{
+    text-decoration: none;
+    color: var(--foreground);
+    cursor: auto;
+}
 
 /* RESPONSIVENESS */
 
