@@ -146,7 +146,7 @@ input:checked + label:after {
 .social-media a>i{
     margin-bottom: 1rem;
     color: var(--foreground);
-    transition: text-shadow 1s ease;
+    transition: color 1s ease, text-shadow 1s ease;
 }
 
 .fa-linkedin-square:hover{
