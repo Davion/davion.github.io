@@ -34,6 +34,7 @@ body{
 
     font-family: 'Orbitron', sans-serif;
     font-size: 1.5rem;
+    user-select: none;
     
 
     display: grid;
@@ -219,10 +220,12 @@ html.transition *:after {
     transition-delay: 0 !important;
 }
 
-.testing{
+/* Chrome text transition solution: make all text links */
+.links-to-text{
     text-decoration: none;
     color: var(--foreground);
     cursor: auto;
+    pointer-events: none;
 }
 
 /* RESPONSIVENESS */
