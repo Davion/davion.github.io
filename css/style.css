@@ -53,6 +53,10 @@ section{
     display: flex;
 }
 
+section svg{
+    display: none;
+}
+
 .projects{
     grid-area: projects;
     justify-content: flex-start;
@@ -259,10 +263,16 @@ html.transition *:after {
         ;
     }
 
+    section svg{
+        display: block;
+    }
+
     .projects,
     .work,
     .about,
     .contact{
+        flex-direction: column;
+        gap: 0.3rem;
         justify-content: center;
         align-items: center;
         font-size: 1rem;
