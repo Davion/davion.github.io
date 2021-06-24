@@ -53,7 +53,7 @@ section{
     display: flex;
 }
 
-section svg{
+.mobile-icons{
     display: none;
 }
 
@@ -263,7 +263,7 @@ html.transition *:after {
         ;
     }
 
-    section svg{
+    .mobile-icons{
         display: block;
     }
 
