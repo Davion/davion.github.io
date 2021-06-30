@@ -204,7 +204,11 @@ input:checked + label:after {
 }
 
 .albania-link:hover{
-    text-shadow: 0 0 5px var(--albania-link);
+    text-shadow: 0 0 5px var(--albania-link),
+    0 0 10px var(--albania-link),
+    0 0 20px var(--albania-link),
+    0 0 40px var(--albania-link),
+    0 0 80px var(--albania-link);
 }
 
 
