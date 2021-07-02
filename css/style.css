@@ -172,6 +172,19 @@ section{
     align-items: flex-end;
 }
 
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .navigation-links{
     display: flex;
@@ -236,6 +249,9 @@ html.transition *:after {
     transition: all 750ms !important;
     transition-delay: 0 !important;
 }
+
+
+
 
 /* Chrome text transition solution: make all text links */
 .links-to-text{
