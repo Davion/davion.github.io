@@ -143,6 +143,13 @@ section{
     align-items: flex-end;
 }
 
+.article-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
 .social-media{
     grid-area: social-media;
     justify-content: center;
