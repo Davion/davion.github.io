@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **Welcome!** 
 
 ### *Github Stats*
@@ -6,3 +7,5 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=davion&layout=compact&theme=merko)](https://github.com/Davion)
 
 For further infor check my GitHub in the header link!
+=======
+>>>>>>> new-design
