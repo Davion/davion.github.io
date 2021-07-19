@@ -148,6 +148,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    overflow: scroll;
 }
 
 .social-media{
