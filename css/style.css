@@ -148,7 +148,6 @@ section{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    overflow: scroll;
 }
 
 .social-media{
@@ -313,6 +312,10 @@ html.transition *:after {
         font-size: 1rem;
 
         background-color: var(--mobile-btm-background);
+    }
+
+    .article-container{
+        overflow-y: scroll;
     }
 
     .navigation-links{
